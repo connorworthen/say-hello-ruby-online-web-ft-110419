@@ -1,2 +1,3 @@
-def say_hell.rb
-  say_hello("Connor")
+def say_hello("name", language = "ruby")
+  puts "Hello, #{name}. What #{language} are you currently learning?"
+end
